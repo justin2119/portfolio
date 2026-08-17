@@ -1,0 +1,36 @@
+export const translations = {
+  fr: {
+    nav: ['À propos', 'Compétences', 'Projets', 'Contact'],
+    langLabel: 'Langue', heroKicker: 'DÉVELOPPEUR × ENSEIGNANT',
+    heroTitle: 'Construire des outils utiles. Transmettre avec méthode.',
+    heroText: 'Je suis Justin BINA, Senior Technical Specialist et professeur de physique-chimie au lycée de Vogan, au Togo.',
+    aboutTitle: 'À propos', aboutText: 'Je relie l’ingénierie logicielle à la pédagogie pour créer des expériences numériques fiables, accessibles et ancrées dans les réalités du terrain.',
+    philosophyTitle: 'Philosophie pédagogique & technique', philosophyText: 'Architecture claire, apprentissage actif et solutions pensées pour fonctionner dans le monde réel : chaque projet doit réduire la friction et augmenter l’autonomie.',
+    skillsTitle: 'Compétences & stack', dev: 'Développement', education: 'Éducation',
+    projectsTitle: 'Projets sélectionnés',
+    projects: [
+      ['flutter_clean_api_app', 'Application Flutter structurée autour de la Clean Architecture et de pratiques de code maintenables.'],
+      ['APC Physique-Chimie Togo', 'Plateforme pensée pour accompagner la démarche pédagogique APC en physique-chimie.'],
+      ['Labo-Défis / Éval-Critères', 'Outils éducatifs offline-first pour expérimenter, évaluer et apprendre avec continuité.']
+    ],
+    contextTitle: 'Éducation & contexte', contextText: 'Enseignant au Lycée de Vogan, je développe des ressources adaptées à l’APC et aux besoins concrets des apprenants au Togo.',
+    contactTitle: 'Travaillons ensemble', contactText: 'Une idée pédagogique, un produit numérique ou une collaboration technique ?', contactCta: 'Me contacter', photo: 'Photo de profil à venir', photoHint: 'EMPLACEMENT IMAGE · JB', location: 'Vogan / Lomé, Togo', footer: 'Conçu avec précision · 2026'
+  },
+  en: {
+    nav: ['About', 'Skills', 'Projects', 'Contact'],
+    langLabel: 'Language', heroKicker: 'DEVELOPER × TEACHER',
+    heroTitle: 'Building useful tools. Teaching with purpose.',
+    heroText: 'I am Justin BINA, a Senior Technical Specialist and lycée Physics/Chemistry teacher at Lycée de Vogan, Togo.',
+    aboutTitle: 'About', aboutText: 'I connect software engineering with education to create reliable, accessible digital experiences grounded in real-world needs.',
+    philosophyTitle: 'Pedagogical & development philosophy', philosophyText: 'Clear architecture, active learning, and solutions designed for the real world: every project should reduce friction and increase autonomy.',
+    skillsTitle: 'Skills & stack', dev: 'Development', education: 'Education',
+    projectsTitle: 'Selected projects',
+    projects: [
+      ['flutter_clean_api_app', 'A Flutter application shaped by Clean Architecture and maintainable engineering practices.'],
+      ['APC Physique-Chimie Togo', 'A platform designed to support the APC pedagogical approach in Physics and Chemistry.'],
+      ['Labo-Défis / Éval-Critères', 'Offline-first educational tools for experimenting, assessing, and learning continuously.']
+    ],
+    contextTitle: 'Education & context', contextText: 'As a teacher at Lycée de Vogan, I build resources aligned with APC and the concrete needs of learners in Togo.',
+    contactTitle: 'Let’s work together', contactText: 'A pedagogical idea, a digital product, or a technical collaboration?', contactCta: 'Get in touch', photo: 'Profile photo coming soon', photoHint: 'IMAGE SLOT · JB', location: 'Vogan / Lomé, Togo', footer: 'Designed with precision · 2026'
+  }
+}
